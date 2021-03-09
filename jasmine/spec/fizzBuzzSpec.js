@@ -17,5 +17,8 @@ describe('fizzBuzz', function() {
     expect(fizzBuzz(15)).toEqual('FizzBuzz');
   });
 
+  it('should return the given number if it does not divide by 3, 5, or both', function() {
+    expect(fizzBuzz(26)).toEqual(26)
+  });
 
 });

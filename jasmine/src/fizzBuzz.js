@@ -8,7 +8,7 @@ var fizzBuzz = function(number) {
   else if (number % 5 === 0) {
     return 'Buzz'
   }
-  else if (number < 3) {
+  else {
     return number
   }
 }
